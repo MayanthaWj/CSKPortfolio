@@ -32,15 +32,17 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Aspiring Associate Software Engineer with expertise in
-              Angular, ASP.NET Core, and full-stack development, eager
-              to relaunch my career by building user-centric and scalable
-              web applications. Passionate about coding, continuous
-              learning, and delivering high-quality results.
+              <p className="text-lg">
+                A passionate and detail-oriented Salesforce Developer with hands-on experience
+                in building CRM solutions using Apex, Lightning Web Components, and declarative 
+                tools. With a background in Computer Science and a role at Virtusa, I’ve 
+                contributed to projects in financial and healthcare domains—always 
+                striving to align technology with real-world impact.
+              </p>
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              A GREAT FUTURE DOES NOT REQUIRE A GREAT PAST
+              Technology is not just code — it’s the bridge between people and possibilities.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
@@ -102,34 +104,34 @@ const AboutPage = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
             >
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                JavaScript
+                Salesforce 
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                TypeScript
+                Salesforce development
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                React.js
+                Salesforce administration
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Next.js
+                customization and configuration
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                SCSS
+                Apex
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Tailwind CSS
+                Lightning web components
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Redux
+                Soql
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Framer Motion
+                Java
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Three.js
+                SQL
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                WebGL
+                Postmen
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Webpack
@@ -192,7 +194,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Associate Software Engineer 
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -201,11 +203,11 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2021 DEC - 2025 APR
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Virtusa Pvt.Ltd
                   </div>
                 </div>
                 {/* CENTER */}
@@ -236,7 +238,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Software Engineer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -245,47 +247,13 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2025 MAY - Present
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Hello Better Digital Pvt.Ltd
                   </div>
                 </div>
-              </div>
-
-              {/*Experience List One Row+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/}
-              <div className="flex justify-between h-54" >
-                {/* LEFT */}
-                <div className="w-1/3 ">
-                  {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
-                  </div>
-                  {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
-                  </div>
-                  {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
-                  </div>
-                  {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
-                  </div>
-                </div>
-                {/* CENTER */}
-                <div className="w-1/6 flex justify-center">
-                  {/* LINE */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
-                  </div>
-                </div>
-                {/* RIGHT */}
-                <div className="w-1/3 "></div>
               </div>
             </motion.div>
 
